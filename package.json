@@ -11,11 +11,19 @@
     "react-native": "0.58.4"
   },
   "devDependencies": {
+    "@types/react": "^16.8.2",
+    "@types/react-native": "^0.57.35",
     "babel-core": "^7.0.0-bridge.0",
     "babel-jest": "24.1.0",
     "jest": "24.1.0",
     "metro-react-native-babel-preset": "0.51.1",
-    "react-test-renderer": "16.6.3"
+    "react-native-typescript-transformer": "^1.2.11",
+    "react-test-renderer": "16.6.3",
+    "tslint": "^5.12.1",
+    "tslint-config-airbnb": "^5.11.1",
+    "tslint-eslint-rules": "^5.4.0",
+    "tslint-react": "^3.6.0",
+    "typescript": "^3.3.3"
   },
   "jest": {
     "preset": "react-native"
