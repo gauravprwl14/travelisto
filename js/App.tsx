@@ -1,4 +1,4 @@
-import react from 'react'
+import * as React from 'react'
 import Navigation from './Navigation'
 
 const MainApp = () => {
@@ -7,4 +7,4 @@ const MainApp = () => {
   )
 }
 
-export default Navigation
+export default MainApp

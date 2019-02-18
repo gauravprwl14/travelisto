@@ -1,12 +1,11 @@
-import { StackNavigator } from 'react-navigation'
-import App from './Components/App'
+import { createStackNavigator, createAppContainer } from 'react-navigation'
+import HomeScreen from './Components/HomeScreen'
 
 
-const ScheduleStack = StackNavigator({
-    Home: { screen: App },
-  }, {
-    headerMode: 'none',
-    initialRouteName: 'Home',
-  })
+const AppNavigator = createStackNavigator({
+  Home: {
+    screen: HomeScreen,
+  },
+})
 
-  export default ScheduleStack
+  export default createAppContainer(AppNavigator)
