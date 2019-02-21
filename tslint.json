@@ -11,6 +11,7 @@
     "quotemark": [true, "single"],
     "ordered-imports": false,
     "object-literal-sort-keys": false,
+    "object-literal-shorthand": true,
     "arrow-parens": false,
     "no-console": [false],
     "no-unused-expression": true,
