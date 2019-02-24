@@ -1,5 +1,7 @@
 {
   "editor.codeActionsOnSave": {
     "source.fixAll.tslint": true
-  }
+  },
+  "prettier.tslintIntegration": true,
+  "editor.formatOnSave": true
 }
