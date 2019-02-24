@@ -21,6 +21,7 @@
     "@types/react-native": "^0.57.35",
     "@types/react-redux": "^7.0.1",
     "@types/react-test-renderer": "^16.8.1",
+    "@types/redux-logger": "^3.0.7",
     "babel-core": "^7.0.0-bridge.0",
     "babel-jest": "24.1.0",
     "jest": "^24.1.0",
