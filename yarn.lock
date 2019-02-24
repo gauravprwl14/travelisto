@@ -4878,6 +4878,11 @@ react-native-gesture-handler@^1.0.15, react-native-gesture-handler@~1.0.14:
     invariant "^2.2.2"
     prop-types "^15.5.10"
 
+react-native-localize@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/react-native-localize/-/react-native-localize-1.0.3.tgz#bc555e34f36082f84ce3b8da3cb036a5553a590d"
+  integrity sha512-+BPdwnvIGMwgtustUjPEWbC3pIHoadr9DVEEhxPMTLJdfQE69s+y/zEiSbqBnp01g9Sg8c81+9xcnWWqCMGSJQ==
+
 react-native-safe-area-view@^0.12.0:
   version "0.12.0"
   resolved "https://registry.yarnpkg.com/react-native-safe-area-view/-/react-native-safe-area-view-0.12.0.tgz#5c312f087300ecf82e8541c3eac25d560e147f22"
