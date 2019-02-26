@@ -1,4 +1,5 @@
 import * as React from 'react'
+import { connect } from 'react-redux'
 import { Platform, StyleSheet, Text, View } from 'react-native'
 
 const instructions = Platform.select({
@@ -17,7 +18,8 @@ const HomeScreen = ()  => {
   )
 }
 
-export default HomeScreen
+
+export default connect()(HomeScreen)
 
 const styles = StyleSheet.create({
   container: {
