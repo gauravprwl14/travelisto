@@ -6,7 +6,7 @@ const styles = StyleSheet.create({
         flex: 1,
         paddingLeft: 20,
         paddingRight: 20,
-        backgroundColor: theme.colors.themeBgColor,
+        backgroundColor: theme.app.theme.bgColor,
     },
 })
 
