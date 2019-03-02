@@ -22,7 +22,7 @@ class HomeScreen extends React.Component<HomeScreenProps> {
                 <StatusBar barStyle='light-content' backgroundColor='#6a51ae' />
                 <View>
                     <Text style={HomeScreenStyles.StyleCreator.welcome}>
-                        Welcome to React Native!
+                        Travelisto
                     </Text>
                     <Text style={HomeScreenStyles.StyleCreator.instructions}>
                         To get started, edit HomeScreen.js
