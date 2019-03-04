@@ -11,6 +11,7 @@
     "react-native": "0.58.4",
     "react-native-gesture-handler": "^1.0.15",
     "react-native-localize": "^1.0.3",
+    "react-native-svg": "^9.2.4",
     "react-native-swiper": "^1.5.14",
     "react-navigation": "^3.2.3",
     "react-redux": "^6.0.0",
