@@ -39,7 +39,7 @@ class HomeScreen extends React.Component<HomeScreenProps> {
                 <StatusBar barStyle='light-content' backgroundColor='#6a51ae' />
                 <View>
                     <Text style={HomeScreenStyles.StyleCreator.welcome}>
-                        Travelisto
+                        Travelist
                     </Text>
                 </View>
             </Container>
