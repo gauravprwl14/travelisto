@@ -9,6 +9,7 @@ import com.facebook.react.ReactPackage;
 import com.facebook.react.shell.MainReactPackage;
 import com.facebook.soloader.SoLoader;
 import com.reactcommunity.rnlocalize.RNLocalizePackage; // <-- Add the RNLocalize import
+import com.horcrux.svg.SvgPackage; // <-- Add the React Native Svg import
 
 import java.util.Arrays;
 import java.util.List;
@@ -26,7 +27,8 @@ public class MainApplication extends Application implements ReactApplication {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
           new RNGestureHandlerPackage(),
-          new RNLocalizePackage() // <-- Add it to the packages list
+          new RNLocalizePackage(), // <-- Add it to the packages list
+          new SvgPackage() // <-- Add React Native Svg to the packages list
       );
     }
 
